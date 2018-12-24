@@ -7,18 +7,18 @@ package com.wangfan.algorithm.stack;
 
 public class ArrayStack{
 
-	private String[] items;
+    private String[] items;
 
-	private int count = 0;
+    private int count = 0;
 
-	private int n = 0;
+    private int n = 0;
 
     public ArrayStack(int n){
         this.items = new String[n];
         this.n = n;
     }
 
-	public boolean push(String item){
+    public boolean push(String item){
         if(count == n) return false;
         items[count++] = item;
         return true;
