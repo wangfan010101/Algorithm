@@ -2,7 +2,7 @@ package com.wangfan.algorithm.stack;
 
 /**
  * 数组实现栈
- * params: n是栈大小；count是栈中元素个数
+ * params: n 是栈大小；count 是栈中元素个数
  */
 
 public class ArrayStack{
